@@ -11,10 +11,14 @@
 
 	<form method='post'>
 
+		<label for='name'>Name</label>
+
 		<input type='text' id='name' placeholder='Name' required/>
+		<label for='email'>Email</label>
 		<input type='email' id='email' placeholder='Email' required/>
-		<input type='radio' id='gender_m gender_f'  required/>
-		
+		<label for='gender'>Gender</label>
+		<input type='radio' id='gender_m gender_f' name='gender'  required/>
+		<label for='cars'></label>
 		<select id="cars" name="cars">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
@@ -22,12 +26,16 @@
   <option value="audi">Audi</option>
 </select>
 
-		
+		<label for='age'>Age</label>
 		<input type='number' id='age' placeholder='Age' required/>
+		<label for='dob'>DOB</label>
 		<input type='date' id='dob'  required/>
+		<label for='tel'>Phone Number</label>
 		<input type='tel' id='tel' placeholder='xxx-xxx-xxxx' required/>
+		<label for='password'>Password</label>
 
 		<input type='password' id='password' placeholder='Password' required/>
+		<label for='tos'>I agree to the TOS</label>
 		<input type='checkbox' id='tos' required/>
 		
 		
